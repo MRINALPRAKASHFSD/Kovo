@@ -1,0 +1,32 @@
+{
+  "name": "kovo",
+  "version": "0.1.0-alpha",
+  "private": true,
+  "description": "KOVO — Production-grade communication platform monorepo",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.5.0",
+  "scripts": {
+    "dev:web":    "pnpm --filter @kovo/web dev",
+    "dev:admin":  "pnpm --filter @kovo/admin dev",
+    "dev:all":    "pnpm --parallel dev",
+    "build:web":       "pnpm --filter @kovo/web build",
+    "build:admin":     "pnpm --filter @kovo/admin build",
+    "build:ui":        "pnpm --filter @kovo/ui build",
+    "build:design":    "pnpm --filter @kovo/design-system build",
+    "build:all":       "pnpm --recursive build",
+    "lint":            "pnpm --recursive lint",
+    "type-check":      "pnpm --recursive type-check",
+    "format":          "prettier --write .",
+    "test":            "pnpm --recursive test",
+    "codegen:api":     "bash scripts/codegen/generate-api-client.sh",
+    "docker:up":       "docker compose up --build",
+    "docker:down":     "docker compose down",
+    "docker:reset":    "docker compose down -v && docker compose up --build",
+    "db:migrate":      "bash scripts/db/migrate.sh",
+    "db:reset":        "bash scripts/db/reset.sh"
+  }
+}
