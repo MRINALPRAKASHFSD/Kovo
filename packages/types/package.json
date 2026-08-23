@@ -1,0 +1,11 @@
+{
+  "name": "@kovo/types",
+  "version": "0.1.0-alpha",
+  "private": true,
+  "description": "KOVO canonical TypeScript type definitions shared across apps",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
