@@ -1,0 +1,1 @@
+"""KOVO — calls.domain.entities."""

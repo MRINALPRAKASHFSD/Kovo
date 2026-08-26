@@ -1,0 +1,1 @@
+"""KOVO — search.infrastructure.repositories."""

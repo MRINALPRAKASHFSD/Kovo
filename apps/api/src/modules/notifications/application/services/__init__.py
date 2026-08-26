@@ -1,0 +1,1 @@
+"""KOVO — notifications.application.services."""

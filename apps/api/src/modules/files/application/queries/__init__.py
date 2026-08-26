@@ -1,0 +1,1 @@
+"""KOVO — files.application.queries."""

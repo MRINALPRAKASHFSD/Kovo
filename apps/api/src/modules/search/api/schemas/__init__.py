@@ -1,0 +1,1 @@
+"""KOVO — search.api.schemas."""
