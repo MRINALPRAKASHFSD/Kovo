@@ -1,0 +1,1 @@
+"""KOVO — messages.domain.events."""

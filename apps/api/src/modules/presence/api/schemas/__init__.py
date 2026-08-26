@@ -1,0 +1,1 @@
+"""KOVO — presence.api.schemas."""
