@@ -1,0 +1,1 @@
+"""KOVO — workspaces.domain.events."""

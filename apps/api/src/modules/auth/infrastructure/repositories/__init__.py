@@ -1,0 +1,1 @@
+"""KOVO — auth.infrastructure.repositories."""

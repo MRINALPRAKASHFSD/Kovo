@@ -1,0 +1,1 @@
+"""KOVO — auth.domain.entities."""

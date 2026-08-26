@@ -1,0 +1,1 @@
+"""KOVO — auth.api.schemas."""
