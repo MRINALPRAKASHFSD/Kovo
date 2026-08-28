@@ -1,0 +1,4 @@
+/* KOVO — Global CSS / Tailwind v4 entry point
+   Design tokens are defined here as CSS custom properties.
+   Phase 2 will expand these into the full KOVO design system. */
+@import "tailwindcss";
