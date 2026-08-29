@@ -1,0 +1,100 @@
+name: kovo
+description: KOVO — Production-grade communication platform mobile app
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+  hydrated_bloc: ^9.1.5
+
+  # Navigation
+  go_router: ^14.0.0
+
+  # Networking
+  dio: ^5.4.3
+  pretty_dio_logger: ^1.4.0
+
+  # WebSocket
+  web_socket_channel: ^3.0.0
+
+  # Local storage
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.3
+
+  # Authentication
+  google_sign_in: ^6.2.1
+  firebase_auth: ^5.1.0
+  firebase_core: ^3.1.0
+
+  # Push Notifications
+  firebase_messaging: ^15.0.1
+  flutter_local_notifications: ^17.1.0
+
+  # UI
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  shimmer: ^3.0.0
+  lottie: ^3.1.0
+  image_picker: ^1.1.0
+  file_picker: ^8.0.3
+  video_player: ^2.8.6
+
+  # Media
+  record: ^5.1.0
+  audioplayers: ^6.0.0
+  emoji_picker_flutter: ^2.2.0
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  connectivity_plus: ^6.0.3
+  permission_handler: ^11.3.1
+  url_launcher: ^6.3.0
+  share_plus: ^10.0.0
+  path_provider: ^2.1.3
+  rxdart: ^0.27.7
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  get_it: ^8.0.0
+  injectable: ^2.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.10
+  freezed: ^2.5.2
+  json_serializable: ^6.7.1
+  injectable_generator: ^2.6.1
+  hive_generator: ^2.0.1
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
