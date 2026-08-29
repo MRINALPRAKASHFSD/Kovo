@@ -12,8 +12,9 @@ const config: Config = {
     './hooks/**/*.{ts,tsx}',
     './lib/**/*.{ts,tsx}',
     './providers/**/*.{ts,tsx}',
+    '../../packages/ui/src/**/*.{ts,tsx}',
   ],
-  darkMode: ['class'],
+  darkMode: 'class',
   theme: {
     extend: {
       // Design tokens are primarily managed via CSS variables in globals.css
@@ -81,7 +82,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [],
 };
 
 export default config;

@@ -12,6 +12,9 @@ const nextConfig: NextConfig = {
   // Output standalone for Docker deployments
   output: 'standalone',
 
+  // Transpile shared workspace packages
+  transpilePackages: ['@kovo/ui', '@kovo/design-system'],
+
   // Image optimization
   images: {
     remotePatterns: [
@@ -33,7 +36,6 @@ const nextConfig: NextConfig = {
     // Server Actions are stable in Next.js 15
     // PPR (Partial Pre-Rendering) for performance
     ppr: false, // enable when ready for production
-    typedRoutes: true,
   },
 
   // Compiler options

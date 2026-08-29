@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -18,18 +22,58 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"],
-      "@/components/*": ["./components/*"],
-      "@/hooks/*": ["./hooks/*"],
-      "@/lib/*": ["./lib/*"],
-      "@/styles/*": ["./styles/*"],
-      "@/types/*": ["./types/*"],
-      "@/store/*": ["./store/*"],
-      "@/utils/*": ["./utils/*"],
-      "@/providers/*": ["./providers/*"],
-      "@/config/*": ["./config/*"]
-    }
+      "@/*": [
+        "./*"
+      ],
+      "@/components/*": [
+        "./components/*"
+      ],
+      "@/hooks/*": [
+        "./hooks/*"
+      ],
+      "@/lib/*": [
+        "./lib/*"
+      ],
+      "@/styles/*": [
+        "./styles/*"
+      ],
+      "@/types/*": [
+        "./types/*"
+      ],
+      "@/store/*": [
+        "./store/*"
+      ],
+      "@/utils/*": [
+        "./utils/*"
+      ],
+      "@/providers/*": [
+        "./providers/*"
+      ],
+      "@/config/*": [
+        "./config/*"
+      ],
+      "@kovo/ui": [
+        "../../packages/ui/src"
+      ],
+      "@kovo/ui/*": [
+        "../../packages/ui/src/*"
+      ],
+      "@kovo/design-system": [
+        "../../packages/design-system/src"
+      ],
+      "@kovo/design-system/*": [
+        "../../packages/design-system/src/*"
+      ]
+    },
+    "target": "ES2017"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
